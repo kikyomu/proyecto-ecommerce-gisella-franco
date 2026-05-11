@@ -1,8 +1,8 @@
-# 📚 eBook Shop
+# eBook Shop
 
 Proyecto desarrollado como parte del curso de Front-End.
 
-## 📖 Descripción
+## Descripción
 
 **eBook Shop** es una tienda online ficticia de libros digitales desarrollada para practicar la creación de páginas web utilizando HTML semántico.
 

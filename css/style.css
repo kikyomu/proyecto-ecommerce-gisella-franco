@@ -235,15 +235,19 @@ section {
     position: relative;
 }
 
-.subtitulo {
+.titulo-section {
     font-size: 1.8rem;
     color: #7e87e3;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     font-weight: bold;
 }
 
-/*Productos*/
+/*
+==================================================================================
+=                                    Productos                                   =
+==================================================================================
+*/
 .box-productos {
     display: flex;
     flex-direction: row;
@@ -297,6 +301,44 @@ section {
 
 .producto button i {
     margin-right: 0.5rem;
+}
+
+/*
+==================================================================================
+=                                    Reseñas                                      =
+==================================================================================
+*/
+
+.box-resenas {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+
+.card-resena {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    flex: 1 1 250px;
+    padding: 1rem;
+}
+
+.estrellas {
+    color: #f5c518;
+    font-size: 1.5rem;
+}
+
+.resena {
+    color: #313131;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem 0;
 }
 
 /*

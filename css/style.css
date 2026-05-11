@@ -310,11 +310,10 @@ section {
 */
 
 .box-resenas {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
     padding-bottom: 5rem;
 }
 
@@ -325,13 +324,14 @@ section {
     align-items: center;
     justify-content: space-between;
     border-radius: 4px;
-    flex: 1 1 250px;
-    padding: 1rem;
+    width: 100%;
+    min-height: 240px;
+    padding: 1.5rem;
 }
 
 .estrellas {
     color: #f5c518;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .resena {
@@ -398,6 +398,20 @@ section {
 */
 
 
+
+/*
+==================================================================================
+=                                    Responsive                                     =
+==================================================================================
+*/
+
+
+@media (max-width: 1024px) {
+    .box-resenas {
+        grid-template-columns: repeat(2, minmax(220px, 1fr));
+    }
+}
+
 @media (max-width: 768px) {
 
     .header,
@@ -417,5 +431,11 @@ section {
     .box-productos {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 580px) {
+    .box-resenas {
+        grid-template-columns: 1fr;
     }
 }

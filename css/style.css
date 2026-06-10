@@ -78,7 +78,8 @@ section {
     width: 100%;
 }
 
-.parrafo {
+.parrafo,
+.producto__descripcion {
     color: #7c7c7c;
     font-size: 1.2rem;
     line-height: 1.5rem;

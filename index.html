@@ -21,11 +21,15 @@
             <ul class="nav__list"></ul>
             <li><a class="nav__link nav__link--active" href="./index.html">Inicio</a></li>
             <li><a class="nav__link" href="./pages/contacto.html">Contacto</a></li>
-            <li><a class="nav__link" href="./pages/carrito.html">Carrito</a></li>
+            <li><a class="nav__link" href="./pages/carrito.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="contador-carrito">0</span>
+                </a>
+            </li>
             </ul>
         </nav>
     </header>
-    <main class="main">
+    <main id="main-productos" class="main-productos">
         <section class="banner-inicio box-titulo">
             <h1 class="titulo">Bienvenido a eBook Shop,<br> una tienda pensada para los amantes de la lectura</h1>
         </section>
@@ -33,16 +37,16 @@
         <section class="productos">
             <h2 class="titulo-section">Descubre nuestros eBooks</h2>
 
-            <div class="box-productos">
-                <article class="producto text-secondary">
+            <div id="contenedor-productos" class="box-productos">
+                <!-- <article class="producto text-secondary">
                     <img src="./img/atomic-love.jpg" alt="Libro Atomic Love" />
                     <div>
                         <h3 class="producto__titulo">Atomic love</h3>
-                        <p class="parrafo">
+                        <p class="producto__descripcion">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
                             fugit perferendis temporibus voluptatibus, iste culpa esse, vero
                         </p>
-                        <p class="price">$15000</p>
+                        <p class="producto__precio">$15000</p>
                     </div>
                     <button class="btn bg-secondary btn-primary "><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
                 </article>
@@ -51,11 +55,11 @@
                     <img src="./img/fitness-for-all.jpg" alt="Libro Fitness for all" />
                     <div>
                         <h3 class="producto__titulo">Fitness for all</h3>
-                        <p class="parrafo">
+                        <p class="producto__descripcion">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
                             fugit perferendis temporibus voluptatibus, iste culpa esse, vero
                         </p>
-                        <p class="price">$18000</p>
+                        <p class="producto__precio">$18000</p>
                     </div>
                     <button class="btn bg-secondary btn-primary "><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
                 </article>
@@ -64,11 +68,11 @@
                     <img src="./img/the-bike-guy.jpg" alt="Libro The bike guy" />
                     <div>
                         <h3 class="producto__titulo">The bike guy</h3>
-                        <p class="parrafo">
+                        <p class="producto__descripcion">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
                             fugit perferendis temporibus voluptatibus, iste culpa esse, vero
                         </p>
-                        <p class="price">$22000</p>
+                        <p class="producto__precio">$22000</p>
                     </div>
                     <button class="btn bg-secondary btn-primary "><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
                 </article>
@@ -76,68 +80,19 @@
                     <img src="./img/atomic-love.jpg" alt="Libro Atomic love" />
                     <div>
                         <h3 class="producto__titulo">Atomic love</h3>
-                        <p class="parrafo">
+                        <p class="producto__descripcion">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
                             fugit perferendis temporibus voluptatibus, iste culpa esse, vero
                         </p>
-                        <p class="price">$12000</p>
+                        <p class="producto__precio">$12000</p>
                     </div>
                     <button class="btn bg-secondary btn-primary "><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
-                </article>
+                </article> -->
 
-                <article class="producto text-secondary">
-                    <img src="./img/fitness-for-all.jpg" alt="Libro Fitness for all" />
-                    <div>
-                        <h3 class="producto__titulo">Fitness for all</h3>
-                        <p class="parrafo">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
-                            fugit perferendis temporibus voluptatibus, iste culpa esse, vero
-                        </p>
-                        <p class="price">$15000</p>
-                    </div>
-                    <button class="btn bg-secondary btn-primary "><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
-                </article>
-
-                <article class="producto text-secondary">
-                    <img src="./img/the-bike-guy.jpg" alt="Libro The bike guy" />
-                    <div>
-                        <h3 class="producto__titulo">The bike guy</h3>
-                        <p class="parrafo">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
-                            fugit perferendis temporibus voluptatibus, iste culpa esse, vero
-                        </p>
-                        <p class="price">$18000</p>
-                    </div>
-                    <button class="btn bg-secondary btn-primary "><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
-                </article>
-
-                <article class="producto text-secondary">
-                    <img src="./img/atomic-love.jpg" alt="Libro Atomic Love" />
-                    <div>
-                        <h3 class="producto__titulo">Atomic love</h3>
-                        <p class="parrafo">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
-                            fugit perferendis temporibus voluptatibus, iste culpa esse, vero
-                        </p>
-                        <p class="price">$15000</p>
-                    </div>
-                    <button class="btn bg-secondary btn-primary "><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
-                </article>
-
-                <article class="producto text-secondary">
-                    <img src="./img/fitness-for-all.jpg" alt="Libro Fitness for all" />
-                    <div>
-                        <h3 class="producto__titulo">Fitness for all</h3>
-                        <p class="parrafo">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
-                            fugit perferendis temporibus voluptatibus, iste culpa esse, vero
-                        </p>
-                        <p class="price">$18000</p>
-                    </div>
-                    <button class="btn bg-secondary btn-primary "><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
-                </article>
 
             </div>
+
+
         </section>
 
         <section class="resenas">
@@ -179,6 +134,11 @@
             </ul>
         </nav>
     </footer>
+
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/productos.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/productos.js"></script>
 </body>
 
 </html>

@@ -20,7 +20,11 @@
             <ul class="nav__list"></ul>
             <li><a class="nav__link " href="../index.html">Inicio</a></li>
             <li><a class="nav__link" href="./contacto.html">Contacto</a></li>
-            <li><a class="nav__link nav__link--active" href="./carrito.html">Carrito</a></li>
+            <li><a class="nav__link" href="./carrito.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="contador-carrito">0</span>
+                </a>
+            </li>
             </ul>
         </nav>
     </header>
@@ -28,10 +32,19 @@
         <section class="box-titulo">
             <h1 class="titulo">Carrito</h1>
         </section>
-        <section class="contenedor">
+        <section id="contenedor-carrito" class="contenedor">
+            <!-- productos del carrito -->
             <!-- Si no hay productos en el carrito, que javascript recorra el array y devuelva un mensaje de que no hay productos, si hay productos devolver listado -->
             <p>No hay productos en el carrito</p>
             <p>Ir a la <a href="../index.html">Tienda</a> para agregar productos</p>
+        </section>
+
+        <section id="acciones-carrito" class="acciones-carrito">
+            <!-- Botones de Eliminar y Finalizar compra se agregan desde js -->
+        </section>
+
+        <section id="resumen-carrito">
+            <!-- Acá irá el resumen del carrito, con el total a pagar y un botón para finalizar la compra -->
         </section>
     </main>
 
@@ -45,6 +58,8 @@
             </ul>
         </nav>
     </footer>
+
+    <script type="module" src="../js/carrito.js"></script>
 </body>
 
 </html>

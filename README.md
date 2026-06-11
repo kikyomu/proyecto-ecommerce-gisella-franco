@@ -1,8 +1,9 @@
 # eBook Shop
 
-Tienda online de libros digitales · Proyecto académico Front-End JS — Talento Tech
+Tienda online de libros digitales · Proyecto académico Front-End JS | Talento Tech
 
-[Ver sitio online](https://kikyomu.github.io/proyecto-final-ecommerce-gisella-franco/)
+[Ver sitio online](https://kikyomu.github.io/proyecto-ecommerce-gisella-franco/)
+
 
 
 ## Descripción
@@ -40,4 +41,4 @@ Todo el desarrollo fue pensado desde la accesibilidad, el diseño responsivo y l
 ## Autora
 
 **Gisella Franco**
-Proyecto realizado como práctica académica — curso Front-End JS, Talento Tech
+Proyecto realizado como práctica académica | Curso Front-End JS, Talento Tech

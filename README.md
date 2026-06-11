@@ -1,66 +1,43 @@
 # eBook Shop
 
-Proyecto desarrollado como parte del curso de Front-End.
+Tienda online de libros digitales · Proyecto académico Front-End JS — Talento Tech
+
+[Ver sitio online](https://kikyomu.github.io/proyecto-final-ecommerce-gisella-franco/)
+
 
 ## Descripción
 
-**eBook Shop** es una tienda online ficticia de libros digitales desarrollada para practicar la creación de páginas web utilizando HTML semántico.
+eBook Shop es una tienda ficticia de eBooks construida para aplicar en la práctica los fundamentos del desarrollo front-end. El proyecto permite explorar un catálogo de productos, agregar y eliminar ítems de un carrito, y mantener esa información entre sesiones mediante LocalStorage.
 
-La estructura del sitio está organizada con etiquetas semánticas como:
-
-- `<header>`
-- `<main>`
-- `<section>`
-- `<footer>`
-
-El objetivo principal fue aplicar buenas prácticas de maquetación y preparar una base sólida para futuras mejoras con estilos y funcionalidades dinámicas.
-
----
-
-## Tecnologías utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-
----
-
-## Objetivos del proyecto
-
-- Aplicar estructura semántica correcta
-- Organizar contenido de forma clara y accesible
-- Crear una base escalable para futuras funcionalidades
-- Practicar maquetado web responsive
-
----
+Todo el desarrollo fue pensado desde la accesibilidad, el diseño responsivo y la organización modular del código.
 
 ## Funcionalidades
 
-- Página principal de tienda online
-- Catálogo visual de eBooks
-- Diseño estructurado y organizado
-- Navegación intuitiva
+- Catálogo de eBooks con visualización dinámica
+- Carrito de compras: agregar, eliminar y vaciar
+- Persistencia de datos con LocalStorage
+- Contador de productos y totales actualizados en tiempo real
+- Navegación entre secciones
+- Diseño adaptable a móvil, tablet y escritorio
 
----
+## Tecnologías
 
-## Aprendizajes aplicados
+- **HTML5**: estructura semántica y accesible
+- **CSS3**: Flexbox, CSS Grid y media queries
+- **JavaScript ES6+**: manipulación del DOM, eventos y módulos
+- **LocalStorage**: persistencia en el cliente
+- **Git & GitHub**: control de versiones
 
-Durante este proyecto se practicó:
+## Conceptos aplicados
 
-- Estructura semántica en HTML
-- Organización de contenido web
-- Diseño responsive básico
-- Buenas prácticas de desarrollo Front-End
+**HTML**: estructura semántica, formularios, multimedia, accesibilidad básica
 
----
+**CSS**: modelo de caja, Flexbox, CSS Grid, media queries, tipografías e íconos
 
-## Autor
+**JavaScript**: variables, condicionales, ciclos, funciones, módulos ES6 (`import/export`), manipulación del DOM, eventos, LocalStorage, renderizado dinámico
+
+
+## Autora
 
 **Gisella Franco**
-
-> Proyecto realizado como práctica académica del curso **"Front-End JS"** de **Talento Tech**.
-
----
-
-## 🔗 [Ver sitio online](https://kikyomu.github.io/proyecto-final-ecommerce-gisella-franco/)
-
+Proyecto realizado como práctica académica — curso Front-End JS, Talento Tech

@@ -20,11 +20,27 @@ const renderizarCarrito = (() => {
     divAcciones.innerHTML = "";
 
     if (!carrito.length) {
-        const mensaje = document.createElement("p");
-        mensaje.classList.add("mensaje-carrito-vacio");
-        mensaje.textContent = "Tu carrito está vacío";
+        const mensajeCarritoVacio = document.createElement("div");
+        mensajeCarritoVacio.classList.add("mensaje-carrito-vacio");
 
-        contenedor.appendChild(mensaje);
+        const p1 = document.createElement("p");
+        p1.textContent = "No hay productos en el carrito";
+
+        const p2 = document.createElement("p");
+        p2.textContent = "Ir a la ";
+
+        // Enlace de la tienda
+        const enlace = document.createElement("a");
+        enlace.href = "../index.html";
+        enlace.textContent = "Tienda";
+
+        p2.appendChild(enlace);
+        p2.append(" para agregar productos");
+
+        mensajeCarritoVacio.appendChild(p1);
+        mensajeCarritoVacio.appendChild(p2);
+
+        contenedor.appendChild(mensajeCarritoVacio);
         return;
     }
 

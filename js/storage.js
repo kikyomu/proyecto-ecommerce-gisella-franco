@@ -14,3 +14,22 @@ export const obtenerCarrito = () => {
 export const vaciarCarritoStorage = () => {
     localStorage.removeItem(KEY);
 };
+const renderizarCarrito = (() => {
+    const carrito = obtenerCarrito();
+    actualizarContador(carrito);
+
+    const conenedor = document.getElementById("contador-carrito");
+    const divAcciones = document.getElementById("acciones-carrito");
+
+    contenedor.innerHTML = "";
+    divAcciones.innerHTML = "";
+
+    if (!carrito.length) {
+        const mensaje = document.crewateElement("p");
+        mensaje.classList.add("mensaje-carrito-vacio");
+        mensaje.textContent = "Tu carrito está vacío";
+
+        contenedor.appendChild(mensaje);
+        return;
+    }
+});

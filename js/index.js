@@ -16,7 +16,7 @@ const renderizarProductos = () => {
     //Agarramos el div para meter las tarjetas
     const contenedor = document.getElementById("contenedor-productos");
 
-    fetch("./data/productos.json")
+    fetch("data/productos.json")
         .then((response) => response.json())
         .then((data) => {
             //Generamos las tarjetas de productos

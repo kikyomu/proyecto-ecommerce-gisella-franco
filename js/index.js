@@ -1,8 +1,4 @@
 import {
-    productos
-} from "./productos.js";
-
-import {
     agregarAlCarrito
 } from "./funcionesCarrito.js";
 
@@ -90,5 +86,5 @@ const renderizarProductos = () => {
 document.addEventListener("DOMContentLoaded", () => {
     const carrito = obtenerCarrito();
     actualizarContador(carrito);
-    renderizarProductos(productos);
+    renderizarProductos();
 });

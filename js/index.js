@@ -38,10 +38,10 @@ const renderizarProductos = () => {
                 title.classList.add("producto__titulo");
                 title.textContent = producto.title;
 
-                //Creo la descripción
-                const description = document.createElement("p");
-                description.classList.add("producto__descripcion");
-                description.textContent = producto.description;
+                //Creo el autor
+                const autor = document.createElement("p");
+                autor.classList.add("producto__autor");
+                autor.textContent = producto.autor;
 
                 //Creo el precio
                 const price = document.createElement("p");
@@ -65,7 +65,7 @@ const renderizarProductos = () => {
                 tarjetaProducto.appendChild(infoProducto);
                 tarjetaProducto.appendChild(boton);
                 infoProducto.appendChild(title);
-                infoProducto.appendChild(description);
+                infoProducto.appendChild(autor);
                 infoProducto.appendChild(price);
                 boton.appendChild(iconoCarrito);
                 boton.append("Agregar al carrito");

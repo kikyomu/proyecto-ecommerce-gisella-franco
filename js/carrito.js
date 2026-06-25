@@ -66,7 +66,7 @@ const renderizarCarrito = (() => {
 
         //Crear icono que va dentro del botón
         const btnEliminar = document.createElement("button");
-        btnEliminar.classList.add("btn", "btn-elimiar-carrito");
+        btnEliminar.classList.add("btn", "btn-eliminar-carrito");
         const iconoEliminar = document.createElement("i");
         iconoEliminar.classList.add("fa-solid", "fa-trash");
 
@@ -79,8 +79,8 @@ const renderizarCarrito = (() => {
         tarjetaProducto.appendChild(title);
         tarjetaProducto.appendChild(price);
         tarjetaProducto.appendChild(btnEliminar);
-        btnEliminar.append("Eliminar producto");
         btnEliminar.appendChild(iconoEliminar);
+        btnEliminar.append("Eliminar");
 
         contenedor.appendChild(tarjetaProducto);
     });

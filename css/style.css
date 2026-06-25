@@ -543,6 +543,54 @@ section {
     color: #7e87e3;
 }
 
+/* ==========================================================================
+   ESTADO DEL CARRITO VACÍO
+   ========================================================================== */
+
+/* La caja blanca contenedora que creaste con .mensaje-carrito-vacio */
+.mensaje-carrito-vacio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 3rem 2rem;
+    margin: 4rem auto;
+    max-width: 500px;
+
+    background-color: #ffffff;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.03);
+}
+
+/* El primer párrafo (p1): "No hay productos en el carrito" */
+.mensaje-carrito-vacio p:first-child {
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.5rem;
+}
+
+/* El segundo párrafo (p2): "Ir a la Tienda para agregar productos" */
+.mensaje-carrito-vacio p:last-child {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.mensaje-carrito-vacio p a {
+    color: #5b44b3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.mensaje-carrito-vacio p a:hover {
+    color: #44328c;
+    text-decoration: underline;
+}
+
 /*
 ==================================================================================
 =                                    Responsive                                     =
